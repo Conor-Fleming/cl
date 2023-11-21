@@ -23,7 +23,7 @@ type Posting struct {
 	CategoryAbbr string             `json:"categoryAbbr"`
 	Title        string             `json:"title"`
 	Images       []string           `json:"images"`
-	Price        float64            `json:"price"`
+	Price        float32            `json:"price"`
 }
 
 // PostingAttribute describes the structure for a single attribute on a posting
