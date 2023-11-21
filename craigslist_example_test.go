@@ -2,13 +2,11 @@ package craigslist_test
 
 import (
 	"fmt"
-
-	"github.com/ecnepsnai/craigslist"
 )
 
 func ExampleSearch() {
 	// Perform a service for 'vintage' in the computers for-sale category 'sys' in Vancouver, BC
-	results, err := craigslist.Search("sya", "vintage", craigslist.LocationParams{
+	results, err := cl.Search("sya", "vintage", cl.LocationParams{
 		AreaID:         16,
 		Latitude:       49.2810,
 		Longitude:      -123.0400,

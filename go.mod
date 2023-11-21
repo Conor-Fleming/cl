@@ -1,5 +1,7 @@
-module github.com/ecnepsnai/craigslist
+module github.com/Conor-Fleming/cl
 
-go 1.17
+go 1.21
 
-require github.com/google/uuid v1.3.0
+require (
+	github.com/google/uuid v1.3.0
+)
